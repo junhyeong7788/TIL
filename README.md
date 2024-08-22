@@ -1,4 +1,4 @@
-# TIL (Today I Learn)
+# TIL (Today I Learned)
 
 TIL : 자신의 언어로 자신이 학습한 내용을 정리하는 것
 
