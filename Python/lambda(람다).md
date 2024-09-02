@@ -33,6 +33,13 @@ map(lambda x: x ** 2, range(5)) # [0, 1, 4, 9, 16]
 list(map(lambda x : X ** 2, range(5))) # [0, 1, 4, 9, 16]
 ```
 
+```python
+def plus_ten(x):
+	return x + 10
+
+# 람다표현식 사용
+list(map(plus_ten, [1, 2, 3])) # [11, 12, 13]
+```
 - reduce() - `reduce(함수, 시퀀스)` : 시퀀스(문자열, 리스트, 튜플)의 원소들을 누적적으로 함수에 적용시킴
 ```python
 from functools import reduce
