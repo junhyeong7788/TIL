@@ -12,7 +12,10 @@
 # 📝새로 배운 개념
 
 ## 개념 
-
+- 리스트 컴프리헨션의 기본 구조 : `[expression for item in iterable if condition]` 
+	- expression : 생성될 리스트의 요소를  결정하는 표현식
+	- for item in iterable : 리스트, 문자열, 튜플, range 등 반복가능한 객체 / iterable의 각 요소를 순회하며 item으로 사용
+	- if condition : (선택사항) 이 조건이 참일 경우에만 expression이 리스트에 포함
 ### 기초
 ```python
 li = [] # [1,2,3,4,5]
@@ -64,6 +67,12 @@ return sum([i for i in range(2, n + 1, 2)])
 
 # ✨
 - 리스트컴프리헨션 개념 정리
+장점
+- 코드가 간결하고 명확해진다.
+- 일반적으로 for 루프보다 빠르게 동작한다.
+단점
+- 복잡한 경우, 가독성이 떨어짐
+- 너무 복잡한 표현식은 피하는 것이 좋다.
 
 ---
 # 🔗레퍼런스
