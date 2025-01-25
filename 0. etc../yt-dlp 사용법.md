@@ -1,15 +1,15 @@
-# 🚀 
+# 🚀 오픈소스 CLI 도구
 
-## 정의
+## yt-dlp
 
-- yt-dlp : Youtube와 기타 다양한 비디오 및 오디오 플랫폼에서 콘텐츠를 다운로드 할 수 있는 오픈소스 명령줄 프로그램
+- YouTube 및 기타 웹사이트에서 동영상을 다운로드할 수 있는 강력한 오픈소스 명령줄 도구
 
-## 설치
+## Installation
 
 - `brew install ffmpeg`
-- `brew install yt-dlp/taps/yt-dlp
+- `brew install yt-dlp/taps/yt-dlp`
 
-## 사용방법
+## Usage
 
 - `yt-dlp -F 'URL'` : 포맷 목록 보기
 - `yt-dlp -f 영상해상도번호+음질음원번호 'URL'`: 특정 포맷 다운로드
