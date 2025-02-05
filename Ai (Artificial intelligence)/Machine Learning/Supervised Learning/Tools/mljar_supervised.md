@@ -50,10 +50,10 @@
 
 ### Perform
 
-- 5-fold CV
-- Linear, RandomForest, LightGBM, Xgboost, CatBoost, Neural Network 모델을 사용
-- Report에 learning curve와 importance plot을 제공
-
+- 실생활에 사용되는 모델에 적절
+  - 5-fold CV
+  - Linear, RandomForest, LightGBM, Xgboost, CatBoost, Neural Network 모델을 사용
+  - Report에 learning curve와 importance plot을 제공
 - 1차 학습
   - 기본 알고리즘들로 학습을 진행
   - 하이퍼 파라미터 튜닝 (랜덤 서치)
