@@ -50,30 +50,23 @@
 
 ### Perform
 
-- 1차 학습
-
-  - 기본 알고리즘들로 학습을 진행
-  - 하이퍼 파라미터 튜닝 (랜덤 서치)
-
-- Feature Engineering
-
-  - Golden Features
-
-    - 모든 feature 중 한 쌍을 골라 가능한 모든 연산에 대한 새로운 feature 생성
-    - 각 feature만으로 예측 모델을 만들고 모델을 평가하여, 성능이 가장 좋은 N개의 feature를 선정
-
-  - Feature Selection
-    - 학습 데이터에 랜덤 feature를 추가, 1차 학습 때의 best model로 재학습
-    - 각 feature의 중요도를 측정하여 중요도가 낮은 feature를 제거
-
-- 2차 학습
-
-  - Feature Engineering이 끝난 feature로 하이퍼 파라미터 튜닝
-  - 앙상블, 스태킹 모델 생성
-
 - 5-fold CV
 - Linear, RandomForest, LightGBM, Xgboost, CatBoost, Neural Network 모델을 사용
 - Report에 learning curve와 importance plot을 제공
+
+- 1차 학습
+  - 기본 알고리즘들로 학습을 진행
+  - 하이퍼 파라미터 튜닝 (랜덤 서치)
+- Feature Engineering
+  - Golden Features
+    - 모든 feature 중 한 쌍을 골라 가능한 모든 연산에 대한 새로운 feature 생성
+    - 각 feature만으로 예측 모델을 만들고 모델을 평가하여, 성능이 가장 좋은 N개의 feature를 선정
+  - Feature Selection
+    - 학습 데이터에 랜덤 feature를 추가, 1차 학습 때의 best model로 재학습
+    - 각 feature의 중요도를 측정하여 중요도가 낮은 feature를 제거
+- 2차 학습
+  - Feature Engineering이 끝난 feature로 하이퍼 파라미터 튜닝
+  - 앙상블, 스태킹 모델 생성
 
 ### Compete
 
