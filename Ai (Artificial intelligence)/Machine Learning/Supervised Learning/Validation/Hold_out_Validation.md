@@ -77,8 +77,4 @@
 
 ## 참고 강의/글
 
-- 참고한 글의 링크를 붙여 넣으세요.
-
-## 읽을 예정
-
-- 읽을 예정인 글의 링크를 붙여 넣으세요.
+- [Hold-out vs. Cross-validation in Machine Learning](https://medium.com/@jaz1/holdout-vs-cross-validation-in-machine-learning-7637112d3f8f)
